@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Model weights (large binary files, not tracked)
+*.gguf
+*.bin
+
+# Cache database (per-user local state, not tracked)
+*.db
+cache.db
+
+# Environment / secrets
+.env
+*.env
+
+# OS
+.DS_Store
